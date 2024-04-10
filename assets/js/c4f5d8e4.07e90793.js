@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkmy_website=self.webpackChunkmy_website||[]).push([[195],{2841:(t,e,r)=>{r.r(e),r.d(e,{default:()=>a});r(7294);var u=r(6550),s=r(5893);function a(){return(0,s.jsx)(u.l_,{to:"Board-QuickStart/BoardIntroduction/"})}}}]);
