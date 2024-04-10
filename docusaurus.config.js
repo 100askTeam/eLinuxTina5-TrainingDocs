@@ -8,8 +8,8 @@ import {themes as prismThemes} from 'prism-react-renderer';
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: '东山Π',
-  tagline: 'eLinux TinaSDK5 Docs.',
+  title: 'DshanPI',
+  tagline: 'eLinux TinaSDK5 Development.',
   favicon: 'img/favicon.ico',
 
   // Set the production url of your site here
@@ -75,7 +75,7 @@ const config = {
       // Replace with your project's social card
       image: 'img/docusaurus-social-card.jpg',
       navbar: {
-        title: 'eLinux AI开发',
+        title: 'TinaSDK5',
         logo: {
           alt: 'DshanPI',
           src: 'img/logo.svg',
@@ -83,10 +83,28 @@ const config = {
         items: [
           {
             type: 'docSidebar',
-            sidebarId: 'linuxuserSidebar',
+            sidebarId: 'boardquickstartSidebar',
             position: 'left',
-            label: 'Linux手册',
-          },                 
+            label: '学习板使用',
+          }, 
+          {
+            type: 'docSidebar',
+            sidebarId: 'classpartoneSidebar',
+            position: 'left',
+            label: '第一期课程 ',
+          }, 
+          {
+            type: 'docSidebar',
+            sidebarId: 'classparttwoSidebar',
+            position: 'left',
+            label: '第二期课程',
+          }, 
+          {
+            type: 'docSidebar',
+            sidebarId: 'classpartthreeSidebar',
+            position: 'left',
+            label: '第三期课程',
+          },                                          
           {
             type: 'localeDropdown',
             position: 'right',
